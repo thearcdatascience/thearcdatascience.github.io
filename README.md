@@ -7,4 +7,4 @@
 - CSS
 
 <b>Background Colors:</b>
-hex 1a1a1a(bg) and 2b2b2b(navbar)
+hex:  1a1a1a(for background in all pages) and 2b2b2b(for the navbar)
