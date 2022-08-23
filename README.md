@@ -5,3 +5,6 @@
 ## Tech Stack
 - HTML
 - CSS
+
+<b>Background Colors:</b>
+hex 1a1a1a(bg) and 2b2b2b(navbar)
