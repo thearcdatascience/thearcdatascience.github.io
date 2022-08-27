@@ -1,0 +1,9 @@
+.sidebar {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a{
+    margin-top: 15px;
+}

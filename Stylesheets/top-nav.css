@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    background-color: #1a1a1a;
+}
+
+.topnav {
+    background-color: #2b2b2b;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.topnav a {
+    font-family: 'Consolas';
+    color: #f2f2f2;
+    text-align: center;
+    margin: 20px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+    display: inline-block;
+  }
+
+.topnav a:hover {
+    transform: skew(-20deg);
+  }
+  
+.topnav a.active {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 3px;
+    color: white;
+  }
+
+  .topnav a.active:hover {
+    transform: none;
+  }
