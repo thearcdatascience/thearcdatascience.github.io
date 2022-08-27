@@ -3,6 +3,7 @@
   /* Timeline Container */
   .timeline {
     background: #1a1a1a;
+    display: inline-flex;
     /*margin: 80px 80px 80px 110px;*/
     width: 70vw;
     padding: 20px;
