@@ -4,6 +4,7 @@
   .timeline {
     background: #1a1a1a;
     /*margin: 80px 80px 80px 110px;*/
+    width: 90vw;
     padding: 20px;
     float: right;
   }
