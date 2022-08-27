@@ -1,20 +1,4 @@
-:root {
-    --primary-color: #1a1a1a; /* try #212121 also for dark mode */
-    --background-color: #1a1a1a;
-    --font: inika;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    background: var(--background-color);
-    font-family: var(--font);
-    display: flex;
-    justify-content: left;
-  }
+
   
   /* Timeline Container */
   .timeline {
