@@ -2,9 +2,10 @@
   
   /* Timeline Container */
   .timeline {
-    background: var(--primary-color);
-    margin: 80px 80px 80px 110px;
+    background: #1a1a1a;
+    /*margin: 80px 80px 80px 110px;*/
     padding: 20px;
+    float: left;
   }
   
   /* Outer Layer with the timeline border */
