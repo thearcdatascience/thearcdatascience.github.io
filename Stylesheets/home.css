@@ -1,13 +1,6 @@
 body {
-    width: 100%;
-    display: flex;
-    
-    align-items: center;
-    flex-direction: column;
-    background-color: #1a1a1a;
-    min-height: 100vh; 
-    letter-spacing: 1px;
 }
+
 p {
     color: white;
     padding-top: 5%;
@@ -19,4 +12,15 @@ h1 {
     font-size: 70px;
     padding-top: 50%;
     color: white;
+}
+
+.animation-div{
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    min-height: 100vh; 
+    letter-spacing: 1px;
 }
