@@ -1,0 +1,10 @@
+.sidebar {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #5f0092;
+}
+
+.sidebar a{
+    margin-top: 15px;
+}
