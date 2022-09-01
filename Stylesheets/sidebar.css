@@ -5,5 +5,11 @@
 }
 
 .sidebar a{
-    margin-top: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.6;
+}
+
+.sidebar a:hover{
+    opacity: 1;
 }
