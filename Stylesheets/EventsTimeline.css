@@ -1,8 +1,6 @@
-
-  /* Timeline Container */
-  .timeline {
-    background: #1a1a1a;
-    display: inline-flex;
+/* Timeline Container */
+.timeline {
+    font-family: "Calibri";
     /*margin: 80px 80px 80px 110px;*/
     width: 80vw;
     padding: 20px;
