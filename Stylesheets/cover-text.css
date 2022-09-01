@@ -1,0 +1,13 @@
+.cover-text{
+    height: 80vh;
+    width: 80vw;
+    flex: content;
+    text-align: center;
+    font-family: "Consolas";
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: whitesmoke;
+    margin-inline: 10vw;
+    margin-block: 10vh;
+}
