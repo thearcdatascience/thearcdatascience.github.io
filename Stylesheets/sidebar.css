@@ -2,6 +2,7 @@
     float: left;
     display: flex;
     flex-direction: column;
+    z-index: 2;
 }
 
 .sidebar a{
