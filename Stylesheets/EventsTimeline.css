@@ -22,7 +22,7 @@
   background: #1e1f26;
   color: #faebd7;
   border-radius: 8px;
-  
+  z-index: 2;
 }
 
 /* Information about the timeline */
