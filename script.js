@@ -5,13 +5,13 @@ window.onload = function () {
 };
 const particles = Particles.init({
   selector: ".background",
-  color: ["#5f0092", "#ffffff", "#5f0092"],
+  color: ["#5ce1e6", "#f46a6a", "#5ce1e6"],
   connectParticles: true,
   responsive: [
     {
       breakpoint: 768,
       options: {
-        color: ["#5f0092", "#ffffff", "#5f0092"],
+        color: ["#5ce1e6", "#f46a6a", "#5ce1e6"],
         maxParticles: 43,
         connectParticles: true
       }
