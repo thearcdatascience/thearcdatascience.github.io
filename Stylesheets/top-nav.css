@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    background-color: #1e1f26 ;
+}
+
+.topnav {
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.topnav a {
+    letter-spacing: 0.1em;
+    color: #f2f2f2;
+    text-align: center;
+    margin: 10px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+    display: inline-block;
+    z-index: 2;
+    background-color: #1e1f26;
+    border-bottom: 1px white transparent;
+  }
+
+.topnav .logo{
+    
+    color: #f2f2f2;
+    text-align: center;
+    margin: 20px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.3s;
+    display: inline-block;
+    z-index: 2;
+    background-color: #1e1f26;
+    border-bottom: 1px white transparent;
+}
+
+.topnav a:hover {
+    transform: skew(-20deg);
+    border-bottom: 1px white transparents;
+  }
+  
+.topnav a.active {
+    
+    padding-bottom: 3px;
+    /* font-size: 30px; */
+    border-bottom: 1px white solid;
+  }
+
+  .topnav a.active:hover {
+    transform: none;
+  }
+
+
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      position: fixed;
+      right: 20px;
+      /*float: right;*/
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;
+    display: flex;
+  flex-direction: column;}
+    .topnav.responsive .icon {
+      position: fixed;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .topnav .rotateLogo {
+    animation: rotateLogo 3s linear infinite;
+    margin: 0px;
+  }
+
+  @keyframes rotateLogo{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

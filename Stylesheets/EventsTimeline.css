@@ -1,0 +1,61 @@
+   
+ /* Timeline Container */
+.timeline {
+  /* font-family: "Roboto", sans-serif; */
+  /*margin: 80px 80px 80px 110px;*/
+  width: 90vw;
+  padding: 10px;
+  padding-left: 20vw;
+  float: left;
+}
+
+/* Outer Layer with the timeline border */
+.outer {
+  border-left: 2px solid #333;
+}
+
+/* Card container */
+.card {
+  position: relative;
+  margin: 50px 50px 20px 20px;
+  padding: 25px;
+  background: #1e1f26;
+  color: #ededed;
+  border-radius: 8px;
+  z-index: 2;
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+/* Title of the card */
+.title {
+  color: #ededed;
+  position: relative;
+  font-size: 25px;
+}
+
+/* Timeline dot  */
+.title::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 999px;
+  left: -54px;
+}
+
+.background {
+  position: absolute;
+  height: 90vh;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: auto;
+}

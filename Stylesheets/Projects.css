@@ -1,0 +1,17 @@
+.background {
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    height: 90vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: auto;
+  }
+.cover-text{
+    letter-spacing: 0.1em;
+    color: #faebd7;
+    font-style: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
